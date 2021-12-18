@@ -5,7 +5,7 @@
 
 **Question 2: Removing Files and Directories**
 
-![Question 4.2](../Lab4-Q2.png))
+![Question 4.2](../Imgs/Lab4-Q2.png)
 
 **Question 3: Moving Files and Directories**
 
