@@ -48,86 +48,110 @@ Omv Extras is a plugin that enables the user to do several things. For example, 
 ![NameandOS](Imgs/Name%20and%20%20Operating%20System.png)
 
 **Apply the default setting for the amount of base memory. In this case, the default value that I chose is 2048**
+
 ![Memoryspace](Imgs/MemorySIze.png)
 
 **Create a new virtual hard disk to use as our VM filesystem. So, use the default setting on this screen.**
+
 ![Hard Disk](Imgs/Hard%20Disk.png)
 
 **On the following screen, I select the format for the virtual hard disk. Here. I applied the default settings again. So, I would use the original VirtualBox Disk Image (VDI) format. Then, click Continue.**
+
 ![Hard Disk File](Imgs/Hard%20Disk%20File%20Type.png)
 
 **On the next screen, I needed to choose between a Dynamically Allocated or a Fixed-size virtual disk file. I picked the “dynamically allocated,” which is the default.**
+
 ![Storage](Imgs/Storage%20on%20Phsysical%20Hard%20disk.png)
 
 **Then, choose the VM disk image file's location and maximum size on your host computer's file system.**
+
 ![FileLocation](Imgs/File%20location%20and%20size.png)
 
 **Now you could see that I have a Debian 50 VM available in VirtualBox and it is in the Powered Off state**
+
 ![Screen](Imgs/NAS%20Open%20Vault%20Media%20Descriotion.png)
 
  # Installing Openmediavault
 
 **The initial installation screen of OpenMediaVault should appear on the screen. Pick Install from the boot menu and press the enter key to proceed.**
+
 ![Installation](Imgs/OPM.png)
 
 **On the following screen, choose the language utilized for the installation method, and default language for the installed system and press enter to proceed.**
+
 ![Language](Imgs/Language.png)
 
 **The subsequent screenshot decides the system location from the provided list depending on the geographical location - Continent -> Country- and press the enter key to continue.**
+
 ![Location](Imgs/Select%20Your%20Location.png)
 
 **On the subsequent screen, the next option will seem that will require to configure the network. Elect the initial network interface to be configured more and press the enter key to proceed. Then the network interface will be automatically configured via DHCP protocol.**
+
 ![Boot Loader](Imgs/Just%20in%20case.png)
 
 **Next, since the network has been configured with the proper IP settings, access the system hostname and press the enter key to advance to the next screen.**
+
 ![Network](Imgs/Network.png)
 
 **In this step, inscribe the domain to be used at the premises and press the enter key to continue.**
+
 ![Network](Imgs/network2.png)
 
 **A secure password must be set up for the root administrative account; repeat the identical password on the next screen and press enter to continue.**
+
 ![Password](Imgs/Set%20up%20users%20and%20passwords.png)
 ![Password](Imgs/Set%20up%20user%20and%20passwords%202.png)
 
 **The package manager window will resemble on the screen. Elect a Debian mirror archive close to your physical location, press enter to continue.**
+
 ![Configurate](Imgs/Configure%20the%20package%20manager.png)
 ![Configurate](Imgs/Configure%20the%20package%20manager2.png)
 
 **To configure the Debian package manager’s access, the installer will demand proxy information. Likely, this is not a requirement, so leave it black and move forward.**
+
 ![COnfiguration](Imgs/Configure%20the%20package%20manager%203.png)
 
 **Subsequent the installation concludes, remove the installation CD or USB and press enter to complete the installation and reboot the machine within the new operating system.**
+
 ![Finish](Imgs/Finish%20the%20installation.png)
 
 **After rebooting the machine enter the username and password that it was set up earlier**
+
 ![Rebooting](Imgs/Address.png)
 
 # Configuring Openmediavault
 
 **In this screenshot after finding the IP address on the previous screen. The user needs to go to the web browser and type the IP address and it would take it to this website. To mention the username would be admin and password openmediavault.**
+
 ![Sing in](Imgs/Sign%20in.png)
 
 **After login, the following information will appear on the screen**
+
 ![Screen](Imgs/Openmediavault%202.png)
 
 **After navigating to Storage -> File Systems, Hit on the Create button., Pick a file system type for the array, such as EXT4. Hit the OK button to perform the file system.**
+
 ![Navegate storage](Imgs/Navegate%20storage.png)
 
 **Choose the RAID device array from the file and hit on top the top-mount button to obtain the system's storage available. The apply button needs to be hit to save the changes.**
+
 ![Raid](Imgs/Raid.png)
 
 **After the previous step, now choose Shared Folders from the Access Rights Management menu at the right. by clicking the choice add, it will appear a busy dialogue box that seems like this.**
+
 ![SharedFolder](Imgs/Shared%20folder.png)
 
 **Next, click the Shares tab—this where I configure the shared folders to show up when we access the NAS on the network. Click  Add, and a dialogue will appear.**
 
 **Enables the shared folder in SMB**
+
 ![Sharestab](Imgs/Edit%20share.png)
 ![OnlyGuess](Imgs/Only%20guess.png)
 
 # Setting up a user account
 
 **Click Access right management, then click User and pick Add and add a new user using the following details.**
+
 ![User](Imgs/user.png)
 ![Enable](Imgs/Enable.png)
 
@@ -138,6 +162,7 @@ Omv Extras is a plugin that enables the user to do several things. For example, 
 # SHH
 
 **SSH allows the user to practice the command line to access your NAS.**
+
 ![SSH](Imgs/SSH.png)
 
 # SSL
@@ -145,11 +170,13 @@ Omv Extras is a plugin that enables the user to do several things. For example, 
 **SSL certificate s can be used for securing the web interface or SSH access**
 
 **The following screenshot will show how to create an SSL certificate.**
+
 ![SSL](Imgs/SSL.png)
 ![SSL](Imgs/SSL%202.png)
 ![Web-adm](Imgs/web-administrator.png)
 
 **The following screenshot will display all usable packages that have to be upgraded, this would make the openmediavault more secure.**
+
 ![Package](Imgs/package%20information.png)
 
 # Taking this project further
